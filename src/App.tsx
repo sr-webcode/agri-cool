@@ -1,19 +1,10 @@
 import { Provider } from '@/components/ui/provider';
+import { useRoutes } from 'react-router-dom';
 
-import Login from './pages/Login';
-import { Button, HStack } from '@chakra-ui/react';
+import { routes } from './router';
 
 function App() {
-  return (
-    <div>
-      <Provider>
-        <HStack>
-          <Button>Click me</Button>
-          <Button>Click me</Button>
-        </HStack>
-      </Provider>
-    </div>
-  );
+  return <Provider> {useRoutes(routes)}</Provider>;
 }
 
 export default App;
