@@ -4,7 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -12,9 +11,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #a2a2a3;
   text-decoration: inherit;
 }
 a:hover {
