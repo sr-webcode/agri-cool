@@ -25,26 +25,6 @@ npm run dev
 ```
 
 ---
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── CropListings.tsx      # Marketplace card grid (flexbox, 3-col)
-│   ├── CropCard.tsx          # Individual crop card
-│   ├── AddCropsForm.tsx      # Drawer wrapper with form state
-│   ├── FormFields.tsx        # React Hook Form fields
-│   └── SeasonBar.tsx         # Monthly peak season indicator
-├── data/
-│   ├── cropData.ts           # Marketplace dummy data + helpers (buildMeta, buildInitials, buildTheme)
-│   └── almanacData.ts        # Almanac crop reference data (season, tips, stats)
-└── types/
-    └── index.ts              # Shared types (CropCategory, CATEGORY_THEME, UNIT_OPTIONS)
-```
-
----
-
 ## Features
 
 ### Marketplace
@@ -58,6 +38,9 @@ src/
 - Per-crop info: harvest time, planting window, yield, water needs
 - Monthly peak season bar (12-pip visual indicator)
 - Growing tips per crop
+
+### Almanac
+- coming soon
 
 ---
 
