@@ -15,7 +15,6 @@ import CropCard from './components/CropCard';
 import { useEffect, useState } from 'react';
 import { useDebounce } from '@/hooks/useDebounce';
 import AddCropsForm from './components/AddCropsForm';
-import { AddCropFormValues } from './types';
 
 const MarketPlace = () => {
   const [searchCrops, setSearchCrops] = useState<string>('');
